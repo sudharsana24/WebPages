@@ -1,0 +1,16 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<h1>Enter two numbers to perform calculations:</h1>
+<form oninput="sum.value=parseInt(x.value)+parseInt(y.value);diff.value=parseInt(x.value)-parseInt(y.value);prod.value=parseInt(x.value)*parseInt(y.value);div.value=parseInt(x.value)/parseInt(y.value)">
+<input type="text" name="x">
+<input type="text" name="y"><br>
+Sum is <output name="sum"></output><br>
+Difference is <output name="diff"></output><br>
+Product is <output name="prod"></output><br>
+Quotient is <output name="div"></output><br>
+</body>
+</html>
